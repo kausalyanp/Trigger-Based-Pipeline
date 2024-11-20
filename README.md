@@ -1,5 +1,6 @@
 # Trigger-Based-Pipeline
 Creating a Jenkins pipeline for CI/CD involves several steps, starting from installing Jenkins to configuring the pipeline to trigger based on events like code changes.
+
 Step 1: Install Jenkins
 ```
 #!/bin/bash
@@ -27,7 +28,7 @@ Access Jenkins:
 Open a web browser and go to http://localhost:8080.
 Enter the initial admin password, which is found in the Jenkins installation directory, to complete the setup.
 
-Step 3: Install Docker
+Step 2: Install Docker
 ```
 #!/bin/bash
 # Add Docker's official GPG key:
